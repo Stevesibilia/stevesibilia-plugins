@@ -1,15 +1,6 @@
 ---
 name: suno-prompts
-description: >-
-  Generate ready-to-paste Suno AI prompts for tabletop RPG session music —
-  ambience loops, scene themes, combat tracks, tavern songs, ritual chants,
-  boss music. Use this skill whenever the user wants music, a soundtrack,
-  ambience, background audio, or "audio hints" for their RPG session, asks for
-  "suno prompts", wants a music cue for a scene from an adventure document, or
-  says things like "musica per la scena del faro", "combat track for the
-  finale", "something to play during the ritual". Also trigger when processing
-  an adventure file with "mood:" fields, or when the user wants a consistent
-  sonic identity for a whole campaign.
+description: Generate ready-to-paste Suno AI prompts for tabletop RPG session music — ambience loops, scene themes, combat tracks, tavern songs, ritual chants, boss music. Use this skill whenever the user wants music, a soundtrack, ambience, background audio, or "audio hints" for their RPG session, asks for "suno prompts", wants a music cue for a scene from an adventure document, or says things like "musica per la scena del faro", "combat track for the finale", "something to play during the ritual". Also trigger when processing an adventure file with "mood:" fields, or when the user wants a consistent sonic identity for a whole campaign.
 ---
 
 # Suno Prompts for RPG Session Music

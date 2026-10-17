@@ -1,14 +1,6 @@
 ---
 name: midjourney-prompts
-description: >-
-  Generate ready-to-paste Midjourney prompts for tabletop RPG visuals — scene
-  illustrations, NPC portraits, locations, handouts, maps, item art. Use this
-  skill whenever the user wants an image, illustration, artwork, portrait, or
-  visual for their RPG session, asks for "midjourney prompts", wants art for a
-  scene or NPC from an adventure document, or says things like "give me visuals
-  for scene 3", "un'immagine per questo PNG", "art for the lighthouse". Also
-  trigger when processing an adventure file with "visual:" fields, or when the
-  user wants a consistent art style across a whole campaign's images.
+description: Generate ready-to-paste Midjourney prompts for tabletop RPG visuals — scene illustrations, NPC portraits, locations, handouts, maps, item art. Use this skill whenever the user wants an image, illustration, artwork, portrait, or visual for their RPG session, asks for "midjourney prompts", wants art for a scene or NPC from an adventure document, or says things like "give me visuals for scene 3", "un'immagine per questo PNG", "art for the lighthouse". Also trigger when processing an adventure file with "visual:" fields, or when the user wants a consistent art style across a whole campaign's images.
 ---
 
 # Midjourney Prompts for RPG Visuals

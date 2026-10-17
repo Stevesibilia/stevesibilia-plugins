@@ -1,6 +1,6 @@
 # Modello del documento
 
-Segui quest'ordine di sezioni. I titoli di livello 2 (`##`) sono fissi: lo script di controllo li cerca per nome. I commenti fra `<!-- -->` spiegano la regola e non vanno nel documento.
+Segui quest'ordine di sezioni. I titoli di livello 2 (`##`) sono fissi: lo script di controllo li cerca per nome. «La vicenda in breve» apre sempre il documento; «Antefatto» è facoltativa. I commenti fra `<!-- -->` spiegano la regola e non vanno nel documento.
 
 Identificativi:
 
@@ -22,6 +22,36 @@ Il master li trova con una ricerca (Ctrl+F) in Joplin, in un editor o su carta. 
 **Tempi:** S1 30' · S2-S4 2 ore · S5 1 ora · margine 30'
 
 **Campagna:** [nome] · **Arco:** A2. [nome] · **Fronti:** F1 a F1.2 · **Fili:** T3, T5 <!-- solo per un episodio di campagna -->
+
+## La vicenda in breve
+
+<!-- Sempre presente, sempre in testa. È il canovaccio per il master, da leggere prima di giocare:
+     chi apre il documento deve capire la storia intera senza leggere le scene.
+     Prosa, non elenchi; 300-600 parole; cinque blocchi con l'etichetta in grassetto.
+     Adatta le etichette al tempo dell'avventura («Stanotte» o «La giornata», «la serata» o «la giornata»).
+     Può dire cosa fanno i PNG e l'antagonista; per i PG descrive la situazione e le
+     possibilità, mai le loro scelte. -->
+
+**Il passato.** [Cosa è successo prima della sessione, chi l'ha causato, quali oggetti, luoghi e segreti sono in gioco, e in che modo i PG ne sono già toccati.]
+
+**Stanotte.** [La situazione all'inizio della sessione: cosa vuole l'antagonista, cosa farà se nessuno interviene, quali forze ha in campo, perché proprio ora.]
+
+**Come si gioca la serata.** [La forma della sessione, luogo per luogo, nell'ordine probabile: dove si comincia, cosa si scopre dove, dove sta il climax.]
+
+**Come può finire.** [Gli esiti possibili e cosa li provoca, compreso ciò che accade se i PG non intervengono.]
+
+**Cosa tiene insieme la serata.** [Il legame di ogni PG con la storia (segreti, legami, colpe) e la domanda di fondo.]
+
+## Antefatto
+
+<!-- Facoltativa. Solo se i PG hanno un incarico o un motivo per essere lì che va spiegato
+     al master: chi li manda, perché proprio loro, cosa sanno partendo, il viaggio.
+     Elenco puntato, al massimo 5 voci. Il testo da leggere ai giocatori sull'incarico
+     va in «Inizio forte», prima dell'evento in corso. -->
+
+- **Chi li manda.** …
+- **Perché loro.** …
+- **Cosa sanno.** …
 
 ## A colpo d'occhio
 

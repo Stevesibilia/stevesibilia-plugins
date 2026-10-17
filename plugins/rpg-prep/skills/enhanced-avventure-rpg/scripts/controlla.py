@@ -14,6 +14,7 @@ import sys
 from pathlib import Path
 
 REQUIRED = [
+    "La vicenda in breve",
     "A colpo d'occhio",
     "Da non perdere stasera",
     "Orologio",
@@ -25,13 +26,14 @@ REQUIRED = [
     "PNG",
     "Appendice",
 ]
-OPTIONAL = ["Schede", "Prima della sessione"]
+OPTIONAL = ["Antefatto", "Schede", "Prima della sessione"]
 SCENE_FIELDS = [
     ("**Da non perdere qui**", "Da non perdere qui"),
     ("**Cosa succede da sé**", "Cosa succede da sé"),
     ("**Se deragliano:**", "Se deragliano"),
 ]
 PREAMBLE_WORDS = 700
+SYNOPSIS_WORDS = (300, 600)
 GLOBAL_REMINDERS = 5
 
 
@@ -110,11 +112,23 @@ def check(path: Path) -> Report:
         if re.match(r"\s*(visual|mood):", line):
             report.error(f"riga {i + 1}: «{line.split(':')[0].strip()}:» fuori dall'appendice")
 
-    # The first page must fit one screen.
-    if "Inizio forte" in sections:
-        words = len(" ".join(lines[:sections["Inizio forte"][0]]).split())
+    # The synopsis opens the document, before everything else.
+    if "La vicenda in breve" in sections:
+        start, end = sections["La vicenda in breve"]
+        first_h2 = next((i for i, l in enumerate(lines) if l.startswith("## ")), start)
+        if first_h2 != start:
+            report.error("«La vicenda in breve» deve essere la prima sezione del documento")
+        words = len(re.sub(r"<!--.*?-->", "", "\n".join(lines[start + 1:end]), flags=re.S).split())
+        low, high = SYNOPSIS_WORDS
+        if not low <= words <= high:
+            report.warn(f"«La vicenda in breve» ha {words} parole (tra {low} e {high})")
+
+    # The first page, from the glance to the strong start, must fit one screen.
+    if "Inizio forte" in sections and "A colpo d'occhio" in sections:
+        start = sections["A colpo d'occhio"][0]
+        words = len(" ".join(lines[start:sections["Inizio forte"][0]]).split())
         if words > PREAMBLE_WORDS:
-            report.warn(f"prima di «Inizio forte» ci sono {words} parole (massimo {PREAMBLE_WORDS})")
+            report.warn(f"da «A colpo d'occhio» a «Inizio forte» ci sono {words} parole (massimo {PREAMBLE_WORDS})")
 
     if "Da non perdere stasera" in sections:
         start, end = sections["Da non perdere stasera"]

@@ -10,6 +10,20 @@
 
 **Tempi:** S1 30' · S2-S4 2 ore · S5 1 ora · margine 30'
 
+## La vicenda in breve
+
+**Il passato.** Sotto Capo Peloro, in fondo allo Stretto, una colonna di roccia fa da Sigillo: tiene sotto il Velo Sabaoth, l'Arconte della Quiete. A reggerla c'è sempre qualcuno: chi pianta l'Ancora per sigillare resta sotto. L'ultimo guardiano è Colapesce, un Previti di Torre Faro, antenato di Saro; la canzone del villaggio lo ricorda ancora, ma nessuno canta l'ultima strofa. L'Ancora di bronzo è una chiave a doppio senso, apre e chiude, e la custodisce il professor Aleramo Neri nella sua casa-biblioteca vicino al porto di Messina.
+
+Il dottor Umberto Salvi, medico e amico di Neri da vent'anni, ha letto nelle carte di Neri un dio prigioniero da liberare. Ha raccolto un piccolo Circolo (un notaio, due studenti di medicina, una vedova, l'adepto Nino Scarfì), ha rubato l'Ancora qualche giorno fa e la notte del 27 dicembre ha smosso il Sigillo. Due dei PG lo hanno aiutato senza capirlo: Elena gli ha copiato la mappa del Sigillo, padre Ignazio ha ricevuto la sua confessione e ha taciuto. Neri si è accorto del furto solo la sera del 27 e gli ha scritto una lettera che non ha mai spedito.
+
+**La giornata.** All'alba del 28 dicembre 1908 il Sigillo cede: il terremoto rade al suolo Messina e il maremoto la invade. Il Sigillo cede a ondate, in tre scosse a ore fisse; l'ultima è al tramonto. Sabaoth non è caos, è stasi: vuole un mondo fermo, senza movimento né scelta. Per uscire gli serve un Risvegliato che acconsenta e pianti l'Ancora per aprire alla terza scossa; se nessuno lo fa, al tramonto prende Salvi e ne fa il suo Avatar. Intanto contamina chi può: il tenente Donato e i suoi soldati, i Quieti, tengono la piazza del Duomo e l'uscita nord, e si muovono tutti insieme. Salvi è partito all'alba verso Capo Peloro con il Circolo e l'Ancora.
+
+**Come si gioca la giornata.** I PG si svegliano nella casa di Neri che crolla; Neri muore sotto una trave dopo due frasi, e in tasca ha la lettera. In città ci sono l'ambulatorio di Salvi, dove si scopre il piano, e il cordone di Donato, da superare per lasciare Messina. Poi la strada costiera fino a Torre Faro, chiusa da una frana fino alla seconda scossa: lì Mena Previti canta la strofa di Colapesce e rivela il prezzo del sigillo. Il climax è sulla punta di Capo Peloro, al tramonto. Sabaoth parla a chi si Risveglia, con offerte che sono comandi.
+
+**Come può finire.** Un Risvegliato pianta l'Ancora per sigillare: il Velo si richiude e le scosse finiscono, ma lui resta sotto, nuovo Colapesce, e il vecchio guardiano muore in pace. Un Risvegliato accetta l'offerta, oppure l'Avatar pianta per aprire: Sabaoth esce e la città diventa un quadro immobile. Se l'Ancora viene strappata al rito o portata via, stanotte non succede niente, ma Sabaoth sa chi la tiene; se viene distrutta, nessuno potrà più aprire né chiudere, e le scosse continueranno per anni. Salvi si può incrinare mostrandogli le prove dell'inganno (tre, e la lettera di Neri vale due): quando perde la fede, Sabaoth subisce una Ferita e lo prende subito.
+
+**Cosa tiene insieme la giornata.** Ogni PG ha un segreto che un PNG tocca di giorno e Sabaoth al tramonto: Ignazio ha taciuto la confessione di Salvi ed è anche il confessore di Donato, Elena ha copiato la mappa, Saro ha visto la colonna e la forma umana nella roccia, e nelle vene ha il sangue di Colapesce. La domanda è sempre una: quando il carceriere si presenta come liberatore, chi è disposto a pagare per tenere chiusa la porta.
+
 ## A colpo d'occhio
 
 | Dove                                      | Quando                            | Antagonista                        | PNG chiave                      | In gioco stasera                                               |

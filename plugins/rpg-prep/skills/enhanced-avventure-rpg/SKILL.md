@@ -45,6 +45,7 @@ Se il master dà solo un'atmosfera, proponi tre premesse diverse nella struttura
 
 ### 2. Costruisci lo scheletro
 
+0. **La vicenda in breve.** Il canovaccio in cinque blocchi (vedi il passo 3): scrivilo quando lo scheletro è stabile, perché riassume tutto il resto.
 1. **Domanda drammatica.** Una domanda aperta sulle scelte dei PG, senza la risposta dentro.
 2. **Rivelazioni.** Le 3-5 conclusioni che i PG devono poter raggiungere (R1, R2…). Per ognuna, **almeno tre indizi** (I1, I2…), in almeno due scene diverse. È la regola dei tre indizi: uno si perde, uno si fraintende, il terzo regge.
 3. **Orologio.** 4-6 passi di ciò che l'antagonista fa se nessuno interviene, ognuno con il suo segnale percepibile. L'ultimo passo è il climax che arriva da sé. Sostituisce il vecchio «se i giocatori ignorano l'esca».
@@ -61,7 +62,8 @@ Leggi [references/modello.md](references/modello.md) e seguilo. Per calibrare fo
 
 Principi del modello:
 
-- **Prima pagina per orientarsi.** Tutto ciò che sta prima di «Inizio forte» entra in una schermata: colpo d'occhio, cose da non perdere, orologio, verità del mondo. Circa una schermata, massimo 700 parole.
+- **In testa, la vicenda in breve.** Il documento si apre sempre con «La vicenda in breve»: il canovaccio per il master, da leggere prima della sessione, perché il colpo d'occhio presuppone che il master conosca già la storia. Cinque blocchi brevi in prosa: il passato (cosa è successo prima e chi l'ha causato), la situazione di stasera (cosa vuole l'antagonista e cosa farà), come si gioca (la forma della serata, luogo per luogo, senza le scelte dei PG), come può finire (gli esiti possibili e cosa li provoca), cosa tiene insieme la serata (i legami dei PG con la storia e la domanda di fondo). Fra 300 e 600 parole. Se i PG hanno un incarico o un motivo per essere lì che va spiegato, segue una sezione «Antefatto» (chi li manda, perché loro, cosa sanno, il viaggio).
+- **Prima pagina per orientarsi.** Dopo la vicenda in breve, tutto ciò che sta fra «A colpo d'occhio» e «Inizio forte» entra in una schermata: colpo d'occhio, cose da non perdere, orologio, verità del mondo. Massimo 700 parole.
 - **Due livelli di promemoria.** «Da non perdere stasera» (al massimo 5 righe) contiene solo ciò che attraversa tutta la sessione. Ogni scena apre con il suo «Da non perdere qui»: indizi da seminare, momenti meccanici (prove, tiri speciali, risorse), segreti dei PG che la scena tocca. Una cosa sta in un livello solo.
 - **Scene autosufficienti.** Dentro la scena c'è tutto ciò che serve per giocarla: chi è presente con la sua frase, le prove, e gli **indizi scritti per esteso** (`- **I4.** Il quaderno di Salvi: … (R1, R2)`), mai solo il loro numero. La tabella «Indizi» in fondo resta come tracker. Le schede complete stanno in «Schede»; la scena dice solo «→ Schede: Donato».
 - **Un testo da leggere per ogni scena.** Ogni scena, compreso il climax, ha un breve blocco citazione (`>`, 2-4 frasi) da leggere ai giocatori quando la scena comincia. Solo il testo da leggere sta in un blocco citazione. Contiene solo ciò che si percepisce, mai rivelazioni né emozioni dei PG; finisce su qualcosa che chiede una reazione. Ciò che sta sotto va nei campi per il master.
