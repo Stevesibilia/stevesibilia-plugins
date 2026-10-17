@@ -64,6 +64,15 @@
       "files": [
         "plugins/rpg-prep/skills/campagna-rpg/references/esempio.md"
       ]
+    },
+    {
+      "id": 10,
+      "skill": "impagina-avventura",
+      "prompt": "Impagina questa avventura in PDF, la voglio stampare per sabato.",
+      "expected_output": "Works on a copy: HTML comments removed and '# L'Ancora di Sabaoth' as the first line. Lists the ## sections and says only the appendix stays out of the PDF. Checks python3 -c 'import weasyprint, markdown_it' and, if it fails, uses a venv, asks before installing Pango, or falls back to Docker. Runs scripts/impagina.py and writes the PDF next to the source. Looks at the PDF: title in the cover and footer, no raw <!-- or ** text, one page per scene S1-S5 with its tab lit, threat boxes for Il Circolo dello Stretto, Tenente Donato, Pattuglia di Quieti and Dottor Umberto Salvi. Does not rewrite the adventure text. Reply in Italian, no em or en dashes.",
+      "files": [
+        "plugins/rpg-prep/skills/enhanced-avventure-rpg/references/esempio.md"
+      ]
     }
   ]
 }

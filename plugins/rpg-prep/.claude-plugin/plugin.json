@@ -1,7 +1,7 @@
 {
   "name": "rpg-prep",
-  "description": "Toolkit for tabletop RPG game masters: campaign design, table-ready adventure prep, adversarial story review, session chronicles, Midjourney art prompts, Suno ambience prompts.",
-  "version": "0.6.1",
+  "description": "Toolkit for tabletop RPG game masters: campaign design, table-ready adventure prep, print-ready adventure PDFs, adversarial story review, session chronicles, Midjourney art prompts, Suno ambience prompts.",
+  "version": "0.7.0",
   "author": {
     "name": "Stefano Sibilia"
   },

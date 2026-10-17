@@ -89,4 +89,4 @@ Principi del modello:
 
 ### 5. Consegna
 
-Salva dove il master chiede. Se non lo dice, proponi `avventure/<campagna>/<titolo>.md`. Se hai Joplin e il master lo vuole, crea la nota lì: il modello usa solo Markdown semplice (titoli, elenchi, tabelle, caselle, citazioni), che Joplin mostra bene e che si stampa. Alla fine, proponi di generare immagini o musica dall'appendice con `midjourney-prompts` o con le skill di Suno.
+Salva dove il master chiede. Se non lo dice, proponi `avventure/<campagna>/<titolo>.md`. Se hai Joplin e il master lo vuole, crea la nota lì: il modello usa solo Markdown semplice (titoli, elenchi, tabelle, caselle, citazioni), che Joplin mostra bene e che si stampa. Alla fine, proponi di generare immagini o musica dall'appendice con `midjourney-prompts` o con le skill di Suno, e di impaginare l'avventura in un PDF da stampare con `impagina-avventura`.

@@ -1,0 +1,119 @@
+@font-face { font-family: "Spectral"; src: url("FONTS/Spectral-Regular.ttf"); font-weight: 400; font-style: normal; }
+@font-face { font-family: "Spectral"; src: url("FONTS/Spectral-Italic.ttf"); font-weight: 400; font-style: italic; }
+@font-face { font-family: "Spectral"; src: url("FONTS/Spectral-SemiBold.ttf"); font-weight: 600 700; font-style: normal; }
+@font-face { font-family: "Spectral"; src: url("FONTS/Spectral-SemiBoldItalic.ttf"); font-weight: 600 700; font-style: italic; }
+@font-face { font-family: "Fell"; src: url("FONTS/IMFeENrm28P.ttf"); font-style: normal; }
+@font-face { font-family: "Fell"; src: url("FONTS/IMFeENit28P.ttf"); font-style: italic; }
+@font-face { font-family: "Plex"; src: url("FONTS/IBMPlexSansCondensed-Regular.ttf"); font-weight: 400; }
+@font-face { font-family: "Plex"; src: url("FONTS/IBMPlexSansCondensed-SemiBold.ttf"); font-weight: 600 700; }
+
+:root { --inchiostro: #1c1a17; --accento: #7b2d26; --carta: #f1ede4; --grigio: #4a463f; --filo: #8a857c; }
+
+@page {
+  size: A4;
+  margin: 12mm 15mm 14mm 14mm;
+  @right-top { content: element(linguetta); vertical-align: top; width: 15mm; height: 200mm; }
+  @bottom-left { content: "TITOLO · " string(sezione); font: 8.5pt "Plex"; color: #4a463f; vertical-align: top; padding-top: 3mm; }
+  @bottom-right { content: counter(page); font: 600 9pt "Plex"; color: #4a463f; vertical-align: top; padding-top: 3mm; }
+}
+
+html { font-family: "Spectral", serif; font-size: 9.5pt; line-height: 1.36; color: var(--inchiostro); }
+body { margin: 0; }
+p { margin: 0 0 2.2mm; }
+a { color: inherit; text-decoration: none; }
+ul { margin: 0 0 2.5mm; padding-left: 4.5mm; }
+li { margin-bottom: 0.9mm; }
+ul.tasks { list-style: none; padding-left: 0; }
+li.task { position: relative; padding-left: 5mm; }
+li.task > p { margin: 0; }
+.box { display: inline-block; width: 3mm; height: 3mm; border: 0.35mm solid var(--inchiostro); vertical-align: -0.4mm; }
+li.task > .box { position: absolute; left: 0; top: 0.9mm; }
+blockquote { margin: 0; }
+
+section { break-before: page; }
+section:first-child { break-before: auto; }
+.piede { string-set: sezione attr(data-testo); height: 0; overflow: hidden; }
+
+/* Linguette sul bordo destro */
+.linguetta { position: running(linguetta); width: 10mm; margin-left: 5mm; padding-top: 8mm; font: 600 8.5pt "Plex"; }
+.linguetta .t { height: 10mm; margin-bottom: 1mm; background: #ebe6dc; color: #4a463f; display: flex; align-items: center; justify-content: center; }
+.linguetta .t.lunga { height: 18mm; }
+.linguetta .t.on { background: var(--accento); color: #ffffff; }
+
+/* Titoli */
+h1, h2, h3 { font-family: "Fell", serif; font-weight: normal; }
+h2.sez { font-size: 18pt; color: var(--accento); border-bottom: 0.3mm solid var(--filo); margin: 5mm 0 2.5mm; padding-bottom: 0.5mm; break-after: avoid; }
+h3 { font-size: 13pt; color: var(--accento); margin: 2.8mm 0 1.2mm; break-after: avoid; border-bottom: 0.25mm solid var(--filo); }
+h4 { font: 600 8.5pt "Plex"; text-transform: uppercase; letter-spacing: 0.08em; color: var(--accento); margin: 0 0 2mm; }
+.etichetta { font: 600 8.5pt "Plex"; text-transform: uppercase; letter-spacing: 0.08em; color: var(--accento); }
+p > strong:only-child { font: 600 8.5pt "Plex"; text-transform: uppercase; letter-spacing: 0.08em; color: var(--accento); }
+
+/* Apertura */
+.frontespizio { border-bottom: 0.6mm solid var(--inchiostro); padding-bottom: 3mm; margin-bottom: 3mm; }
+.frontespizio .sopra { font: 8.5pt "Plex"; letter-spacing: 0.08em; color: var(--grigio); }
+.frontespizio .sopra strong { font-weight: 400; }
+.frontespizio h1 { font-size: 34pt; line-height: 1.05; margin: 1mm 0 0; }
+.frontespizio .sottotitolo { font: italic 15pt "Fell"; color: var(--accento); }
+.meta { font-size: 9pt; color: var(--grigio); }
+.apertura > p, .apertura ul { text-align: justify; }
+
+/* Colonna laterale e principale */
+.laterale { float: right; width: 58mm; margin: 0 0 4mm 6mm; }
+.principale { margin-right: 64mm; }
+.sotto { clear: both; padding-top: 0; }
+.riquadro { background: var(--carta); padding: 3.5mm; margin-bottom: 3.5mm; font-size: 9pt; line-height: 1.38; break-inside: avoid; }
+.riquadro ul { padding-left: 0; }
+.chi { font-size: 9pt; line-height: 1.38; margin-bottom: 3mm; }
+.chi ul { padding-left: 3.5mm; }
+
+/* Scheda breve della minaccia */
+.minaccia { border: 0.45mm solid var(--inchiostro); padding: 3mm; margin-bottom: 3.5mm; font-size: 8.8pt; line-height: 1.35; break-inside: avoid; }
+.m-nome { font: 14pt "Fell"; line-height: 1.1; }
+.m-grado { font: 8.5pt "Plex"; color: var(--grigio); margin-bottom: 1.5mm; }
+.m-caselle { font: 8.5pt "Plex"; margin-bottom: 1mm; }
+.m-caselle { display: flex; align-items: center; }
+.m-etic { width: 13mm; flex: none; }
+.m-fila { white-space: nowrap; }
+.gruppo { display: inline-block; width: 1.4mm; }
+.m-fila .box { margin-right: 0.6mm; vertical-align: middle; }
+.minaccia p { margin: 1.2mm 0 0; }
+.m-rimando { font: 8.5pt "Plex"; color: var(--grigio); margin-top: 1.5mm; }
+.m-rimando a::after, a.rif::after { content: ", p. " target-counter(attr(href), page); }
+
+/* Scene */
+.testata-scena { display: flex; gap: 4mm; align-items: flex-end; border-bottom: 0.6mm solid var(--inchiostro); padding-bottom: 2.5mm; margin-bottom: 3mm; }
+.testata-scena .num { font: 36pt "Fell"; line-height: 0.85; color: var(--accento); }
+.testata-scena h2 { font-size: 22pt; line-height: 1.05; margin: 0; }
+.testata-scena .luogo { font-size: 9pt; color: var(--grigio); margin-top: 1mm; }
+.ingioco { font-size: 10pt; margin-bottom: 3.5mm; }
+.leggi { background: var(--carta); padding: 3.5mm 4.5mm 2.5mm; margin-bottom: 3.5mm; break-inside: avoid; }
+.leggi p { font-style: italic; font-size: 10.3pt; line-height: 1.42; }
+.leggi .etichetta { display: block; margin-bottom: 1.5mm; }
+blockquote.leggi { margin: 0 0 3.5mm; }
+.prova { border: 0.3mm solid var(--filo); padding: 2.5mm 3mm; margin: 3mm 0; font-size: 9.5pt; break-inside: avoid; }
+.deraglia { font-size: 9.5pt; margin-top: 2.5mm; }
+.deraglia b { color: var(--accento); }
+
+/* Tabelle */
+table { width: 100%; border-collapse: collapse; font-size: 9pt; line-height: 1.32; margin: 2mm 0 3mm; }
+thead th { background: var(--inchiostro); color: #ffffff; font: 600 8.5pt "Plex"; text-transform: uppercase; letter-spacing: 0.05em; text-align: left; padding: 1.4mm 2.5mm; }
+td { padding: 0.9mm 2.2mm; border-bottom: 0.25mm solid var(--filo); vertical-align: top; }
+tbody tr:nth-child(even) td { background: #f7f4ee; }
+.reazioni td:first-child { font-weight: 600; width: 38%; }
+.tabella-piccola table { font-size: 8.6pt; }
+tr { break-inside: avoid; }
+
+/* Regole e riferimenti */
+.due-colonne { columns: 2; column-gap: 7mm; font-size: 9.5pt; }
+.due-colonne p { break-inside: avoid; }
+.scheda { border: 0.3mm solid var(--filo); padding: 3mm 4mm 1mm; margin-bottom: 4mm; font-size: 9.3pt; break-inside: avoid; }
+.scheda h3 { border: 0; margin-top: 0; font-size: 15pt; }
+.pregenerati { break-before: page; }
+.pregenerato { border: 0.45mm solid var(--inchiostro); padding: 3mm 4mm 1mm; margin-bottom: 4mm; font-size: 9.3pt; break-inside: avoid; }
+.pregenerato h3 { border: 0; margin-top: 0; font-size: 15pt; }
+.prima { break-before: page; }
+.notte .principale ul.tasks li { margin-bottom: 2mm; }
+
+section.segue { break-before: auto; }
+.documento { border: 0.3mm dashed var(--filo); padding: 3mm 4mm 1mm; margin: 2mm 0 3.5mm; font-size: 9.3pt; background: #fbfaf6; }
+.documento .etichetta { display: block; margin-bottom: 1.5mm; }

@@ -1,11 +1,11 @@
 # Installing the plugins
 
-Eight skills: `campagna-rpg`, `enhanced-avventure-rpg`, `revisione-avventura`, `cronaca-di-sessione`, `scrittura-italiana`, `midjourney-prompts`, `suno-prompts`, `suno-prompt-creator`.
+Nine skills: `campagna-rpg`, `enhanced-avventure-rpg`, `impagina-avventura`, `revisione-avventura`, `cronaca-di-sessione`, `scrittura-italiana`, `midjourney-prompts`, `suno-prompts`, `suno-prompt-creator`.
 
 The repository is public at <https://github.com/Stevesibilia/stevesibilia-plugins> and is a Claude plugin marketplace named `stevesibilia`. `.claude-plugin/marketplace.json` lists two plugins:
 
 - `essentials`: general-purpose skills, today `scrittura-italiana`.
-- `rpg-prep`: the seven RPG skills. It depends on `essentials`, because every RPG skill applies `scrittura-italiana`. A plugin installed on your Claude account is available in chat, in Cowork and in Claude Code.
+- `rpg-prep`: the eight RPG skills. It depends on `essentials`, because every RPG skill applies `scrittura-italiana`. A plugin installed on your Claude account is available in chat, in Cowork and in Claude Code.
 
 ## 1. Claude.ai, desktop and mobile apps
 
